@@ -6,9 +6,9 @@
 
 ## Run
 
-    docker run alpine-nodejs --version
+    docker run alpine-nodejs /tmp/index.js
 
 ## Run with fig
 
     fig build
-    fig up --version
+    fig run web /tmp/index.js
