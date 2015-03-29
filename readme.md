@@ -1,14 +1,15 @@
 ## Tiny Node.js Image (17 MB)
 
-## Build
-
-    docker build -t alpine-nodejs .
-
-## Run
-
-    docker run alpine-nodejs /tmp/index.js
-
-## Run with fig
+### Build and run with docker-compose
 
     docker-compose build
     docker-compose run web
+
+### Build and run without docker-compose
+
+    docker build -t alpine-nodejs .
+    docker run -v $(pwd):/tmp alpine-nodejs
+
+### Get inside
+
+    docker-compose run --entrypoint sh web
