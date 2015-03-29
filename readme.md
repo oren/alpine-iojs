@@ -1,4 +1,4 @@
-# Tiny Node.js Image (22 MB)
+# Tiny io.js Image (22 MB)
 
 ![demo](demo.gif)]
 
