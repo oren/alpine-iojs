@@ -1,6 +1,6 @@
 # Tiny Node.js Image (22 MB)
 
-[![asciicast](https://asciinema.org/a/18151.png)](https://asciinema.org/a/18151)
+![demo](demo.gif)]
 
 ## Prerequisites
 
@@ -20,6 +20,3 @@
 ## Get inside
 
     docker-compose run --entrypoint sh web
-
-
-<script type="text/javascript" src="https://asciinema.org/a/18151.js" id="asciicast-18151" async></script>
