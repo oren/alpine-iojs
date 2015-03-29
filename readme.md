@@ -10,5 +10,5 @@
 
 ## Run with fig
 
-    fig build
-    fig run web /tmp/index.js
+    docker-compose build
+    docker-compose run web
