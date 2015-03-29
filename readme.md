@@ -1,5 +1,7 @@
 # Tiny Node.js Image (22 MB)
 
+[![asciicast](https://asciinema.org/a/18151.png)](https://asciinema.org/a/18151)
+
 ## Prerequisites
 
 * [Docker](https://docs.docker.com/installation)
