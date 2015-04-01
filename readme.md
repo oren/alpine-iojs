@@ -1,5 +1,7 @@
 # Tiny io.js Image (22 MB)
 
+![docker-badge](http://dockeri.co/image/oreng/iojs)
+
 ![demo](demo.gif)]
 
 ## Prerequisites
