@@ -1,4 +1,4 @@
-# Tiny io.js Image (22 MB)
+# Tiny io.js Image (27 MB)
 
 ![docker-badge](http://dockeri.co/image/oreng/iojs)
 
