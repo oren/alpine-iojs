@@ -6,4 +6,4 @@ RUN apk update \
  && apk upgrade \
  && rm -rf /var/cache/apk/*
 WORKDIR /src
-CMD ["node"]
+CMD ["node", "/src/index.js"]
