@@ -12,13 +12,8 @@
 ## Build and Run
 
     docker-compose build
-    docker-compose run web
-
-## Build and run without Compose
-
-    docker build -t alpine-nodejs .
-    docker run -v $(pwd):/tmp alpine-nodejs
+    docker-compose run app
 
 ## Get inside
 
-    docker-compose run --entrypoint sh web
+    docker-compose run app sh

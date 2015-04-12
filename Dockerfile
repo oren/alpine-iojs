@@ -5,4 +5,4 @@ RUN apk add --update iojs
 RUN apk update
 RUN apk upgrade
 RUN rm -rf /var/cache/apk/*
-ENTRYPOINT ["node", "/tmp/index.js"]
+CMD ["node"]

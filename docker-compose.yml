@@ -1,8 +1,7 @@
-web:
+app:
   build: .
   ports:
    - "3000:3000"
   volumes:
-   - .:/tmp
-  expose:
-   - "3000"
+   - .:/src
+  command: node /src/index.js
