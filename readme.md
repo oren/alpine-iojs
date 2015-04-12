@@ -17,3 +17,10 @@
 ## Get inside
 
     docker-compose run app sh
+
+## Push new version
+
+    docker tag -f alpineiojs_app oreng/iojs:1.0.0
+    docker push oreng/iojs:1.0.0
+    docker tag -f oreng/iojs:1.0.0 oreng/iojs:latest
+    docker push oreng/iojs:latest
